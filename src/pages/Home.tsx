@@ -1,14 +1,19 @@
 import { useState } from 'react';
 import Hero from '../components/Hero';
+import Statistics from '../components/Statistics';
+import WhatIsIBDP from '../components/WhatIsIBDP';
 import WhyAscend from '../components/WhyAscend';
-import Scholarship from '../components/Scholarship';
+import ScholarshipDetails from '../components/ScholarshipDetails';
 import ProgrammeOverview from '../components/ProgrammeOverview';
 import UniversityPlacements from '../components/UniversityPlacements';
 import Testimonials from '../components/Testimonials';
+import FAQ from '../components/FAQ';
 import AdmissionsProcess from '../components/AdmissionsProcess';
 import FinalCTA from '../components/FinalCTA';
 import ApplicationForm from '../components/ApplicationForm';
 import Footer from '../components/Footer';
+import StickyApplyButton from '../components/StickyApplyButton';
+import SchemaMarkup from '../components/SchemaMarkup';
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
@@ -28,17 +33,26 @@ export default function Home() {
     setShowForm(false);
   };
 
+  const handleDownloadBrochure = () => {
+    window.open('https://ascendschool.edu.in/brochure.pdf', '_blank');
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      <Hero onApplyClick={handleApplyClick} />
+      <SchemaMarkup />
+      <Hero onApplyClick={handleApplyClick} onDownloadBrochure={handleDownloadBrochure} />
+      <Statistics />
+      <WhatIsIBDP />
       <WhyAscend />
-      <Scholarship onApplyClick={handleApplyClick} />
+      <ScholarshipDetails onApplyClick={handleApplyClick} onDownloadBrochure={handleDownloadBrochure} />
       <ProgrammeOverview />
       <UniversityPlacements />
       <Testimonials />
+      <FAQ />
       <AdmissionsProcess onApplyClick={handleApplyClick} />
       <FinalCTA onApplyClick={handleApplyClick} onTourClick={handleTourClick} />
       <Footer />
+      <StickyApplyButton onApplyClick={handleApplyClick} />
 
       {showForm && (
         <ApplicationForm onClose={handleCloseForm} formType={formType} />
