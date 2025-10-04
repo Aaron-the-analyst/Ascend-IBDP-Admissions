@@ -15,7 +15,7 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
   ];
 
   const benefits = [
-    'Up to 75% tuition fee waiver for entire IBDP (Grades 11-12)',
+    'Up to 100% tuition fee waiver for entire IBDP (Grades 11-12)',
     'Free study materials and textbooks',
     'Priority access to university counseling',
     'Mentorship from IB alumni network',
