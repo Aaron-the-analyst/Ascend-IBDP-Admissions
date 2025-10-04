@@ -19,7 +19,7 @@ export default function FAQ() {
     },
     {
       question: 'What is the IB Diploma cost in Mumbai at Ascend?',
-      answer: 'The full tuition fee for the two-year IBDP at Ascend ranges from ₹8-12 lakhs, depending on the programme and facilities. However, our merit scholarship covers up to 75% of the tuition fees, significantly reducing the financial burden for deserving students. Additional costs include books, examination fees, and extracurricular activities.',
+      answer: 'The full tuition fee for the two-year IBDP at Ascend ranges from ₹8-12 lakhs, depending on the programme and facilities. However, our merit scholarship covers up to 100% of the tuition fees, significantly reducing the financial burden for deserving students. Additional costs include books, examination fees, and extracurricular activities.',
     },
     {
       question: 'Do I need prior IB experience to apply?',
