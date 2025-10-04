@@ -46,7 +46,7 @@ export default function Hero({ onApplyClick, onDownloadBrochure }: HeroProps) {
         </h1>
 
         <p className="text-xl md:text-3xl text-gray-100 mb-10 max-w-4xl mx-auto font-semibold drop-shadow-lg">
-          World-class IB Diploma in Mumbai — 2 merit scholarships available
+          World-class IB Diploma in Mumbai — Limited merit scholarships available
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
