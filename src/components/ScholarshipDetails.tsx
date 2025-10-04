@@ -173,7 +173,7 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
             </a>{' '}
             or email{' '}
             <a href="mailto:admissions@ascendinternational.org" className="text-sky-600 font-semibold hover:underline">
-              scholarships@ascendschool.edu.in
+              admissions@ascendinternational.org
             </a>
           </p>
         </div>
