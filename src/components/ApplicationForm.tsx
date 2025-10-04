@@ -4,7 +4,7 @@ import { X, Send } from 'lucide-react';
 
 interface ApplicationFormProps {
   onClose: () => void;
-  formType: 'application' | 'tour';
+  formType: 'application' | 'tour' | 'brochure';
 }
 
 export default function ApplicationForm({ onClose, formType }: ApplicationFormProps) {
@@ -55,6 +55,7 @@ export default function ApplicationForm({ onClose, formType }: ApplicationFormPr
   };
 
   const isTourForm = formType === 'tour';
+  const isBrochureForm = formType === 'brochure';
 
   const gradeOptions = [
     'Grade 10',
@@ -80,10 +81,16 @@ export default function ApplicationForm({ onClose, formType }: ApplicationFormPr
 
           <div className="mb-5 sm:mb-6 pr-12">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 mb-2">
-              {isTourForm ? 'Book a Campus Tour' : 'Apply to Ascend IB Diploma'}
+              {isBrochureForm
+                ? 'Download IBDP Brochure'
+                : isTourForm
+                ? 'Book a Campus Tour'
+                : 'Apply to Ascend IB Diploma'}
             </h3>
             <p className="text-sm sm:text-base text-gray-600">
-              {isTourForm
+              {isBrochureForm
+                ? 'Get detailed information about our IB Diploma Programme'
+                : isTourForm
                 ? 'Visit our campus and experience our world-class facilities'
                 : 'Start your journey to global academic excellence'}
             </p>
@@ -161,7 +168,7 @@ export default function ApplicationForm({ onClose, formType }: ApplicationFormPr
               </select>
             </div>
 
-            {!isTourForm && (
+            {!isTourForm && !isBrochureForm && (
               <div>
                 <label htmlFor="interest" className="block text-sm sm:text-base font-semibold text-gray-700 mb-2">
                   Interest *
@@ -204,7 +211,11 @@ export default function ApplicationForm({ onClose, formType }: ApplicationFormPr
               ) : (
                 <>
                   <Send className="w-5 h-5" />
-                  {isTourForm ? 'Request Campus Tour' : 'Apply Now'}
+                  {isBrochureForm
+                    ? 'Download Brochure'
+                    : isTourForm
+                    ? 'Request Campus Tour'
+                    : 'Apply Now'}
                 </>
               )}
             </button>

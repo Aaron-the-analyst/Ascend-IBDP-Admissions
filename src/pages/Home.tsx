@@ -16,7 +16,7 @@ import SchemaMarkup from '../components/SchemaMarkup';
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
-  const [formType, setFormType] = useState<'application' | 'tour'>('application');
+  const [formType, setFormType] = useState<'application' | 'tour' | 'brochure'>('application');
 
   const handleApplyClick = () => {
     setFormType('application');
@@ -33,7 +33,8 @@ export default function Home() {
   };
 
   const handleDownloadBrochure = () => {
-    window.open('https://ascendschool.edu.in/brochure.pdf', '_blank');
+    setFormType('brochure');
+    setShowForm(true);
   };
 
   return (
