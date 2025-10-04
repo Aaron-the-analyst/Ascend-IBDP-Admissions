@@ -27,7 +27,7 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
       number: '01',
       title: 'Submit Application',
       description: 'Complete online form with academic records and personal statement',
-      deadline: 'By March 15, 2025',
+      deadline: 'By October 31, 2025',
     },
     {
       number: '02',
@@ -69,7 +69,7 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
             <AlertCircle className="w-10 h-10" />
             <h3 className="text-2xl md:text-4xl font-bold">Application Deadline</h3>
           </div>
-          <p className="text-3xl md:text-5xl font-bold mb-2">March 15, 2025</p>
+          <p className="text-3xl md:text-5xl font-bold mb-2">October 31, 2025</p>
           <p className="text-lg md:text-xl">Don't miss this opportunity — Apply today!</p>
         </div>
 
