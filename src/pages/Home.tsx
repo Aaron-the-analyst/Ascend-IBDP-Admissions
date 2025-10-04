@@ -4,7 +4,6 @@ import Statistics from '../components/Statistics';
 import WhatIsIBDP from '../components/WhatIsIBDP';
 import WhyAscend from '../components/WhyAscend';
 import ScholarshipDetails from '../components/ScholarshipDetails';
-import ProgrammeOverview from '../components/ProgrammeOverview';
 import UniversityPlacements from '../components/UniversityPlacements';
 import Testimonials from '../components/Testimonials';
 import FAQ from '../components/FAQ';
@@ -45,7 +44,6 @@ export default function Home() {
       <WhatIsIBDP />
       <WhyAscend />
       <ScholarshipDetails onApplyClick={handleApplyClick} onDownloadBrochure={handleDownloadBrochure} />
-      <ProgrammeOverview />
       <UniversityPlacements />
       <Testimonials />
       <FAQ />
