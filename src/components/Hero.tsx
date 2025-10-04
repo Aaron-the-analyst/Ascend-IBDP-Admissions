@@ -37,7 +37,7 @@ export default function Hero({ onApplyClick, onDownloadBrochure }: HeroProps) {
 
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto pt-32 pb-16">
         <div className="inline-block mb-6 px-6 py-3 bg-gradient-to-r from-orange-500 to-red-600 text-white rounded-full text-sm md:text-base font-bold shadow-2xl animate-pulse">
-          🎓 Scholarships 2025 | Only 2 Merit Seats Available
+          🎓 Scholarships 2025 | Only Limited Merit Seats Available
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-2xl">
