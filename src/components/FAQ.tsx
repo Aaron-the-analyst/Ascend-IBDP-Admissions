@@ -85,7 +85,7 @@ export default function FAQ() {
               href="tel:+912212345678"
               className="bg-white text-orange-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-all"
             >
-              Call: +91 22 1234 5678
+              Call: +91 2271222000
             </a>
             <a
               href="mailto:admissions@ascendschool.edu.in"
