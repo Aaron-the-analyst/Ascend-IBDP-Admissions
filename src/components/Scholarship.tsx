@@ -31,7 +31,7 @@ export default function Scholarship({ onApplyClick }: ScholarshipProps) {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-2">
-                    2 Full Scholarships Available
+                    Limited Full Scholarships Available
                   </h3>
                   <p className="text-gray-600">
                     For IBDP 2026-27 Academic Year
