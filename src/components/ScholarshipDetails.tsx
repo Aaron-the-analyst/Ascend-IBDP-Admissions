@@ -169,7 +169,7 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
           <p className="text-gray-700 text-center">
             <strong className="text-slate-900">Questions about the scholarship?</strong> Contact our admissions team at{' '}
             <a href="tel:+912212345678" className="text-sky-600 font-semibold hover:underline">
-              +91 22 1234 5678
+              +91 2271222000
             </a>{' '}
             or email{' '}
             <a href="mailto:scholarships@ascendschool.edu.in" className="text-sky-600 font-semibold hover:underline">
