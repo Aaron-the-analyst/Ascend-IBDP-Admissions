@@ -33,19 +33,19 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
       number: '02',
       title: 'Entrance Assessment',
       description: 'Aptitude test covering Mathematics, English, and Logical Reasoning',
-      deadline: 'March 22-25, 2025',
+      deadline: 'November, 2025',
     },
     {
       number: '03',
       title: 'Personal Interview',
       description: 'Meet with admissions panel to discuss goals and aspirations',
-      deadline: 'April 1-5, 2025',
+      deadline: 'November, 2025',
     },
     {
       number: '04',
       title: 'Results Announcement',
       description: 'Scholarship recipients notified via email and phone',
-      deadline: 'April 10, 2025',
+      deadline: 'December, 2025',
     },
   ];
 
