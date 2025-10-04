@@ -172,7 +172,7 @@ export default function ScholarshipDetails({ onApplyClick, onDownloadBrochure }:
               +91 2271222000
             </a>{' '}
             or email{' '}
-            <a href="mailto:scholarships@ascendschool.edu.in" className="text-sky-600 font-semibold hover:underline">
+            <a href="mailto:admissions@ascendinternational.org" className="text-sky-600 font-semibold hover:underline">
               scholarships@ascendschool.edu.in
             </a>
           </p>
