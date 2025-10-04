@@ -15,7 +15,7 @@ const testimonials = [
     quote: 'The IB programme at Ascend challenged me intellectually while nurturing my creativity. I am now studying at Oxford, and I owe so much to the incredible faculty here.',
   },
   {
-    name: 'Meera Desai',
+    name: 'Sarah Ismaili',
     role: 'Parent of Current Student',
     image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=400',
     quote: 'The small class sizes mean teachers know each student individually. My son has thrived academically and personally in this nurturing environment.',
