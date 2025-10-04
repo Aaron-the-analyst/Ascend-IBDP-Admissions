@@ -60,7 +60,7 @@ export default function ThankYou() {
                   <strong>Email:</strong> admissions@ascendschool.edu.in
                 </p>
                 <p className="text-base sm:text-lg text-gray-700">
-                  <strong>Phone:</strong> +91 22 1234 5678
+                  <strong>Phone:</strong> +91 2271222000
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mt-4">
                   Monday - Friday: 9:00 AM - 5:00 PM IST
